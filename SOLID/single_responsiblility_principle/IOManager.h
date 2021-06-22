@@ -13,6 +13,7 @@ class IOManager {
 
   virtual auto input(const std::string &&) -> void = 0;
   virtual auto output() -> void = 0;
+
  private:
   IStream is;
   OStream os;
